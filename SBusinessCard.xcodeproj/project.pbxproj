@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2BBF791FD03BD000D3A481 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF761FD03BCF00D3A481 /* ContactsViewController.swift */; };
+		BC2BBF7A1FD03BD000D3A481 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF771FD03BCF00D3A481 /* ContactDetailViewController.swift */; };
+		BC2BBF7B1FD03BD000D3A481 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF781FD03BCF00D3A481 /* AddContactViewController.swift */; };
+		BC2BBF801FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF7F1FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift */; };
 		BCABEB6B1FC9AB38006456B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */; };
-		BCABEB6D1FC9AB38006456B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB6C1FC9AB38006456B6 /* ViewController.swift */; };
 		BCABEB701FC9AB38006456B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCABEB6E1FC9AB38006456B6 /* Main.storyboard */; };
 		BCABEB731FC9AB38006456B6 /* SBusinessCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB711FC9AB38006456B6 /* SBusinessCard.xcdatamodeld */; };
 		BCABEB751FC9AB38006456B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCABEB741FC9AB38006456B6 /* Assets.xcassets */; };
 		BCABEB781FC9AB38006456B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCABEB761FC9AB38006456B6 /* LaunchScreen.storyboard */; };
+		BCABEB801FC9AB57006456B6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB7F1FC9AB57006456B6 /* Cards.swift */; };
+		BCABEB841FC9AC60006456B6 /* CardsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB821FC9AC60006456B6 /* CardsHomeViewController.swift */; };
+		BCABEB851FC9AC60006456B6 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB831FC9AC60006456B6 /* CardsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2BBF761FD03BCF00D3A481 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		BC2BBF771FD03BCF00D3A481 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		BC2BBF781FD03BCF00D3A481 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		BC2BBF7D1FD0419800D3A481 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		BC2BBF7E1FD041BB00D3A481 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		BC2BBF7F1FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBusinessCardsViewController.swift; sourceTree = "<group>"; };
 		BCABEB671FC9AB38006456B6 /* SBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCABEB6C1FC9AB38006456B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCABEB6F1FC9AB38006456B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCABEB721FC9AB38006456B6 /* SBusinessCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SBusinessCard.xcdatamodel; sourceTree = "<group>"; };
 		BCABEB741FC9AB38006456B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCABEB771FC9AB38006456B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCABEB791FC9AB38006456B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCABEB7F1FC9AB57006456B6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		BCABEB821FC9AC60006456B6 /* CardsHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsHomeViewController.swift; sourceTree = "<group>"; };
+		BCABEB831FC9AC60006456B6 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2BBF7C1FD0419800D3A481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2BBF7E1FD041BB00D3A481 /* ContactsUI.framework */,
+				BC2BBF7D1FD0419800D3A481 /* Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCABEB5E1FC9AB38006456B6 = {
 			isa = PBXGroup;
 			children = (
 				BCABEB691FC9AB38006456B6 /* SBusinessCard */,
 				BCABEB681FC9AB38006456B6 /* Products */,
+				BC2BBF7C1FD0419800D3A481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,29 @@
 		BCABEB691FC9AB38006456B6 /* SBusinessCard */ = {
 			isa = PBXGroup;
 			children = (
-				BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */,
-				BCABEB6C1FC9AB38006456B6 /* ViewController.swift */,
+				BC2BBF781FD03BCF00D3A481 /* AddContactViewController.swift */,
+				BC2BBF771FD03BCF00D3A481 /* ContactDetailViewController.swift */,
+				BC2BBF761FD03BCF00D3A481 /* ContactsViewController.swift */,
+				BCABEB811FC9AB5E006456B6 /* Cards Model */,
+				BCABEB831FC9AC60006456B6 /* CardsCollectionViewCell.swift */,
+				BCABEB821FC9AC60006456B6 /* CardsHomeViewController.swift */,
 				BCABEB6E1FC9AB38006456B6 /* Main.storyboard */,
+				BC2BBF7F1FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift */,
 				BCABEB741FC9AB38006456B6 /* Assets.xcassets */,
+				BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */,
 				BCABEB761FC9AB38006456B6 /* LaunchScreen.storyboard */,
 				BCABEB791FC9AB38006456B6 /* Info.plist */,
 				BCABEB711FC9AB38006456B6 /* SBusinessCard.xcdatamodeld */,
 			);
 			path = SBusinessCard;
+			sourceTree = "<group>";
+		};
+		BCABEB811FC9AB5E006456B6 /* Cards Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCABEB7F1FC9AB57006456B6 /* Cards.swift */,
+			);
+			path = "Cards Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCABEB6D1FC9AB38006456B6 /* ViewController.swift in Sources */,
+				BCABEB851FC9AC60006456B6 /* CardsCollectionViewCell.swift in Sources */,
 				BCABEB6B1FC9AB38006456B6 /* AppDelegate.swift in Sources */,
+				BCABEB841FC9AC60006456B6 /* CardsHomeViewController.swift in Sources */,
+				BC2BBF7A1FD03BD000D3A481 /* ContactDetailViewController.swift in Sources */,
 				BCABEB731FC9AB38006456B6 /* SBusinessCard.xcdatamodeld in Sources */,
+				BC2BBF7B1FD03BD000D3A481 /* AddContactViewController.swift in Sources */,
+				BCABEB801FC9AB57006456B6 /* Cards.swift in Sources */,
+				BC2BBF801FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift in Sources */,
+				BC2BBF791FD03BD000D3A481 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
