@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1FD18F2004DADE00E857C4 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1FD18E2004DADE00E857C4 /* DeviceModel.swift */; };
+		BC1FD1C620063E5900E857C4 /* SwedbankHeadline-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD1C020063E5700E857C4 /* SwedbankHeadline-Bold.ttf */; };
+		BC1FD1C720063E5900E857C4 /* SwedbankHeadline-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD1C120063E5800E857C4 /* SwedbankHeadline-Black.ttf */; };
+		BC1FD1C820063E5900E857C4 /* SwedbankSans-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD1C220063E5800E857C4 /* SwedbankSans-ExtraBold.otf */; };
+		BC1FD1C920063E5900E857C4 /* SwedbankSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD1C320063E5800E857C4 /* SwedbankSans-Regular.otf */; };
+		BC1FD1CA20063E5900E857C4 /* SwedbankSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD1C420063E5800E857C4 /* SwedbankSans-Medium.otf */; };
+		BC1FD1CE20063EA300E857C4 /* SwedbankSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC1FD1CD20063EA300E857C4 /* SwedbankSans-Bold.otf */; };
+		BC1FD1CF2006979C00E857C4 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2BBF7E1FD041BB00D3A481 /* ContactsUI.framework */; };
+		BC1FD1D0200697AA00E857C4 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2BBF7D1FD0419800D3A481 /* Contacts.framework */; };
+		BC2BBF791FD03BD000D3A481 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF761FD03BCF00D3A481 /* ContactsViewController.swift */; };
+		BC2BBF7A1FD03BD000D3A481 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF771FD03BCF00D3A481 /* ContactDetailViewController.swift */; };
+		BC2BBF7B1FD03BD000D3A481 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF781FD03BCF00D3A481 /* AddContactViewController.swift */; };
+		BC2BBF801FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF7F1FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift */; };
+		BC2BBF821FD0546600D3A481 /* IphoneSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2BBF811FD0546600D3A481 /* IphoneSE.storyboard */; };
+		BC2BBF8A1FD5865200D3A481 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BBF891FD5865100D3A481 /* AccountViewController.swift */; };
+		BC4FA8EF1FF45D7D00A7990C /* CreatCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FA8EE1FF45D7D00A7990C /* CreatCardViewController.swift */; };
+		BC88B53A1FFE5C60002A3D41 /* CardsHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC88B5391FFE5C60002A3D41 /* CardsHViewController.swift */; };
+		BCABEB6B1FC9AB38006456B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */; };
+		BCABEB701FC9AB38006456B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCABEB6E1FC9AB38006456B6 /* Main.storyboard */; };
+		BCABEB731FC9AB38006456B6 /* SBusinessCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB711FC9AB38006456B6 /* SBusinessCard.xcdatamodeld */; };
+		BCABEB751FC9AB38006456B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCABEB741FC9AB38006456B6 /* Assets.xcassets */; };
+		BCABEB781FC9AB38006456B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCABEB761FC9AB38006456B6 /* LaunchScreen.storyboard */; };
+		BCABEB801FC9AB57006456B6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB7F1FC9AB57006456B6 /* Cards.swift */; };
+		BCABEB841FC9AC60006456B6 /* CardsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB821FC9AC60006456B6 /* CardsHomeViewController.swift */; };
+		BCABEB851FC9AC60006456B6 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABEB831FC9AC60006456B6 /* CardsCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC1FD18E2004DADE00E857C4 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		BC1FD1C020063E5700E857C4 /* SwedbankHeadline-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SwedbankHeadline-Bold.ttf"; sourceTree = "<group>"; };
+		BC1FD1C120063E5800E857C4 /* SwedbankHeadline-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SwedbankHeadline-Black.ttf"; sourceTree = "<group>"; };
+		BC1FD1C220063E5800E857C4 /* SwedbankSans-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SwedbankSans-ExtraBold.otf"; sourceTree = "<group>"; };
+		BC1FD1C320063E5800E857C4 /* SwedbankSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SwedbankSans-Regular.otf"; sourceTree = "<group>"; };
+		BC1FD1C420063E5800E857C4 /* SwedbankSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SwedbankSans-Medium.otf"; sourceTree = "<group>"; };
+		BC1FD1CD20063EA300E857C4 /* SwedbankSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SwedbankSans-Bold.otf"; sourceTree = "<group>"; };
+		BC2BBF761FD03BCF00D3A481 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		BC2BBF771FD03BCF00D3A481 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		BC2BBF781FD03BCF00D3A481 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		BC2BBF7D1FD0419800D3A481 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		BC2BBF7E1FD041BB00D3A481 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		BC2BBF7F1FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBusinessCardsViewController.swift; sourceTree = "<group>"; };
+		BC2BBF811FD0546600D3A481 /* IphoneSE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IphoneSE.storyboard; sourceTree = "<group>"; };
+		BC2BBF891FD5865100D3A481 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		BC4FA8EE1FF45D7D00A7990C /* CreatCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatCardViewController.swift; sourceTree = "<group>"; };
+		BC88B5391FFE5C60002A3D41 /* CardsHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsHViewController.swift; sourceTree = "<group>"; };
+		BCABEB671FC9AB38006456B6 /* SContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCABEB6F1FC9AB38006456B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCABEB721FC9AB38006456B6 /* SBusinessCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SBusinessCard.xcdatamodel; sourceTree = "<group>"; };
+		BCABEB741FC9AB38006456B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCABEB771FC9AB38006456B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCABEB791FC9AB38006456B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCABEB7F1FC9AB57006456B6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		BCABEB821FC9AC60006456B6 /* CardsHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsHomeViewController.swift; sourceTree = "<group>"; };
+		BCABEB831FC9AC60006456B6 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCABEB641FC9AB38006456B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1FD1D0200697AA00E857C4 /* Contacts.framework in Frameworks */,
+				BC1FD1CF2006979C00E857C4 /* ContactsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1FD1CC20063E6900E857C4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BC1FD1C120063E5800E857C4 /* SwedbankHeadline-Black.ttf */,
+				BC1FD1C020063E5700E857C4 /* SwedbankHeadline-Bold.ttf */,
+				BC1FD1C220063E5800E857C4 /* SwedbankSans-ExtraBold.otf */,
+				BC1FD1CD20063EA300E857C4 /* SwedbankSans-Bold.otf */,
+				BC1FD1C420063E5800E857C4 /* SwedbankSans-Medium.otf */,
+				BC1FD1C320063E5800E857C4 /* SwedbankSans-Regular.otf */,
+			);
+			name = Font;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		BC2BBF7C1FD0419800D3A481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2BBF7E1FD041BB00D3A481 /* ContactsUI.framework */,
+				BC2BBF7D1FD0419800D3A481 /* Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCABEB5E1FC9AB38006456B6 = {
+			isa = PBXGroup;
+			children = (
+				BCABEB691FC9AB38006456B6 /* SContact */,
+				BCABEB681FC9AB38006456B6 /* Products */,
+				BC2BBF7C1FD0419800D3A481 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCABEB681FC9AB38006456B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCABEB671FC9AB38006456B6 /* SContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCABEB691FC9AB38006456B6 /* SContact */ = {
+			isa = PBXGroup;
+			children = (
+				BC1FD1CC20063E6900E857C4 /* Font */,
+				BC2BBF781FD03BCF00D3A481 /* AddContactViewController.swift */,
+				BC2BBF771FD03BCF00D3A481 /* ContactDetailViewController.swift */,
+				BC2BBF761FD03BCF00D3A481 /* ContactsViewController.swift */,
+				BCABEB811FC9AB5E006456B6 /* Cards Model */,
+				BCABEB831FC9AC60006456B6 /* CardsCollectionViewCell.swift */,
+				BCABEB821FC9AC60006456B6 /* CardsHomeViewController.swift */,
+				BC88B5391FFE5C60002A3D41 /* CardsHViewController.swift */,
+				BCABEB6E1FC9AB38006456B6 /* Main.storyboard */,
+				BC4FA8EE1FF45D7D00A7990C /* CreatCardViewController.swift */,
+				BC2BBF811FD0546600D3A481 /* IphoneSE.storyboard */,
+				BC2BBF7F1FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift */,
+				BCABEB741FC9AB38006456B6 /* Assets.xcassets */,
+				BCABEB6A1FC9AB38006456B6 /* AppDelegate.swift */,
+				BCABEB761FC9AB38006456B6 /* LaunchScreen.storyboard */,
+				BC1FD18E2004DADE00E857C4 /* DeviceModel.swift */,
+				BCABEB791FC9AB38006456B6 /* Info.plist */,
+				BCABEB711FC9AB38006456B6 /* SBusinessCard.xcdatamodeld */,
+				BC2BBF891FD5865100D3A481 /* AccountViewController.swift */,
+			);
+			path = SContact;
+			sourceTree = "<group>";
+		};
+		BCABEB811FC9AB5E006456B6 /* Cards Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCABEB7F1FC9AB57006456B6 /* Cards.swift */,
+			);
+			path = "Cards Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCABEB661FC9AB38006456B6 /* SContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCABEB7C1FC9AB38006456B6 /* Build configuration list for PBXNativeTarget "SContact" */;
+			buildPhases = (
+				BCABEB631FC9AB38006456B6 /* Sources */,
+				BCABEB641FC9AB38006456B6 /* Frameworks */,
+				BCABEB651FC9AB38006456B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SContact;
+			productName = SBusinessCard;
+			productReference = BCABEB671FC9AB38006456B6 /* SContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCABEB5F1FC9AB38006456B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Luthon Hagvinprice";
+				TargetAttributes = {
+					BCABEB661FC9AB38006456B6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCABEB621FC9AB38006456B6 /* Build configuration list for PBXProject "SContact" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCABEB5E1FC9AB38006456B6;
+			productRefGroup = BCABEB681FC9AB38006456B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCABEB661FC9AB38006456B6 /* SContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCABEB651FC9AB38006456B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1FD1C920063E5900E857C4 /* SwedbankSans-Regular.otf in Resources */,
+				BCABEB781FC9AB38006456B6 /* LaunchScreen.storyboard in Resources */,
+				BC2BBF821FD0546600D3A481 /* IphoneSE.storyboard in Resources */,
+				BC1FD1C620063E5900E857C4 /* SwedbankHeadline-Bold.ttf in Resources */,
+				BCABEB751FC9AB38006456B6 /* Assets.xcassets in Resources */,
+				BC1FD1CE20063EA300E857C4 /* SwedbankSans-Bold.otf in Resources */,
+				BC1FD1C720063E5900E857C4 /* SwedbankHeadline-Black.ttf in Resources */,
+				BC1FD1CA20063E5900E857C4 /* SwedbankSans-Medium.otf in Resources */,
+				BCABEB701FC9AB38006456B6 /* Main.storyboard in Resources */,
+				BC1FD1C820063E5900E857C4 /* SwedbankSans-ExtraBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCABEB631FC9AB38006456B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCABEB851FC9AC60006456B6 /* CardsCollectionViewCell.swift in Sources */,
+				BC1FD18F2004DADE00E857C4 /* DeviceModel.swift in Sources */,
+				BCABEB6B1FC9AB38006456B6 /* AppDelegate.swift in Sources */,
+				BCABEB841FC9AC60006456B6 /* CardsHomeViewController.swift in Sources */,
+				BC2BBF7A1FD03BD000D3A481 /* ContactDetailViewController.swift in Sources */,
+				BCABEB731FC9AB38006456B6 /* SBusinessCard.xcdatamodeld in Sources */,
+				BC2BBF7B1FD03BD000D3A481 /* AddContactViewController.swift in Sources */,
+				BC4FA8EF1FF45D7D00A7990C /* CreatCardViewController.swift in Sources */,
+				BC2BBF8A1FD5865200D3A481 /* AccountViewController.swift in Sources */,
+				BCABEB801FC9AB57006456B6 /* Cards.swift in Sources */,
+				BC88B53A1FFE5C60002A3D41 /* CardsHViewController.swift in Sources */,
+				BC2BBF801FD04A0B00D3A481 /* CreateBusinessCardsViewController.swift in Sources */,
+				BC2BBF791FD03BD000D3A481 /* ContactsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCABEB6E1FC9AB38006456B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCABEB6F1FC9AB38006456B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCABEB761FC9AB38006456B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCABEB771FC9AB38006456B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCABEB7A1FC9AB38006456B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCABEB7B1FC9AB38006456B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCABEB7D1FC9AB38006456B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BBP7Y88F;
+				INFOPLIST_FILE = "$(SRCROOT)/SContact/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.finhub.SCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BCABEB7E1FC9AB38006456B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BBP7Y88F;
+				INFOPLIST_FILE = "$(SRCROOT)/SContact/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.finhub.SCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCABEB621FC9AB38006456B6 /* Build configuration list for PBXProject "SContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCABEB7A1FC9AB38006456B6 /* Debug */,
+				BCABEB7B1FC9AB38006456B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCABEB7C1FC9AB38006456B6 /* Build configuration list for PBXNativeTarget "SContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCABEB7D1FC9AB38006456B6 /* Debug */,
+				BCABEB7E1FC9AB38006456B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCABEB711FC9AB38006456B6 /* SBusinessCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCABEB721FC9AB38006456B6 /* SBusinessCard.xcdatamodel */,
+			);
+			currentVersion = BCABEB721FC9AB38006456B6 /* SBusinessCard.xcdatamodel */;
+			path = SBusinessCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCABEB5F1FC9AB38006456B6 /* Project object */;
+}
